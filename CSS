@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background: url('estetik.gif') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Transparent overlay to help with readability */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffffffcc;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffddcc;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+#hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta {
+  background: #ff9980;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta:hover {
+  background: #ff7f66;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 0.9em;
+  color: #ffffffaa;
+}
